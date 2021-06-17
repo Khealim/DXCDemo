@@ -11,4 +11,6 @@ INSERT INTO sema_1.customer VALUES (param3 + param2);
 INSERT INTO sema_1.customer VALUES (param3 - param2);
 INSERT INTO sema_1.customer VALUES (param1 + param3);
 INSERT INTO sema_1.customer VALUES (param1 - param3 + param4 + param3);
+INSERT INTO sema_1.customer VALUES (param1 - param3 + param4 + param1);
+INSERT INTO sema_1.customer VALUES (param1 - param3 + param4);
 $$;
