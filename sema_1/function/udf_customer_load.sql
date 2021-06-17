@@ -3,7 +3,7 @@ LANGUAGE SQL
 AS $$
 INSERT INTO sema_1.customer VALUES (param1 + param2);
 INSERT INTO sema_1.customer VALUES (param1 - param2);
-INSERT INTO sema_1.customer VALUES (param4 + param2);
+INSERT INTO sema_1.customer VALUES (param4 + param2)asdas;
 INSERT INTO sema_1.customer VALUES (param4 - param2);
 INSERT INTO sema_1.customer VALUES (param1 + param4);
 INSERT INTO sema_1.customer VALUES (param1 - param4);
